@@ -1,0 +1,20 @@
+#Calculator
+
+a= int(input("enter first value : "))
+operator = input("operator(+,-,*,/,%,**) : ")
+b= int(input("enter second value : "))
+
+if operator == '+':
+    print(a+b)
+elif operator == '-':
+    print(a-b)
+elif operator == '*':
+    print(a*b)
+elif operator == '/':
+    print(a/b)
+elif operator == '%':
+    print(a%b)
+elif operator == '**':
+    print(a**b)
+else:
+    print("invalid operator")
